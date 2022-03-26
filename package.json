@@ -1,0 +1,26 @@
+{
+  "name": "prsnl.site",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/47d737a2-aac8-421e-af82-bf5f0855febf/deploy-status)](https://app.netlify.com/sites/angry-bhaskara-369fef/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/input.css -o src/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxRickettsUy/prsnl.site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxRickettsUy/prsnl.site/issues"
+  },
+  "homepage": "https://github.com/MaxRickettsUy/prsnl.site#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
