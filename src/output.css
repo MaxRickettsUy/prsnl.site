@@ -424,11 +424,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.float-right {
+  float: right;
+}
+.m-4 {
+  margin: 1rem;
+}
 .m-2 {
   margin: 0.5rem;
 }
-.ml-2 {
+.mx-2 {
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
 }
 .flex {
   display: flex;
@@ -436,14 +446,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-h-72 {
   max-height: 18rem;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 .flex-row {
   flex-direction: row;
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-.justify-center {
-  justify-content: center;
 }
 .gap-2 {
   gap: 0.5rem;
@@ -470,14 +480,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hover\:text-green-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
 
