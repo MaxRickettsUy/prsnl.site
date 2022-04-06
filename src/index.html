@@ -23,38 +23,105 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#ef4444">
+    <style>
+      .flex-row-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .flex-row-container > .flex-row-item {
+        flex: 1 1 30%; /*grow | shrink | basis */
+      }
+      .flex-row-item {
+        padding: 8px;
+      }
+    </style>
   </head>
 
   <body class="bg-gray-500">
     <div class="flex">
-      <h1 class="m-4 flex-grow">prsnl.site</h1>
-      <a class="hover:text-green-500 m-4" target="_blank" href="https://github.com/MaxRickettsUy/prsnl.site/issues">Submit your site here</a>
+      <h1 class="m-4 text-2xl lg:text-4xl flex-grow">prsnl.site</h1>
+      <a class="hover:text-green-500 m-4 underline self-center" target="_blank" href="https://github.com/MaxRickettsUy/prsnl.site/issues">Submit your site here</a>
     </div>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="flex flex-row gap-2 flex-wrap">
-      <div class="m-2">
+    <div class="flex flex-col lg:flex-row lg:flex-grow flex-row-container">
+      <div class="m-2 flex-row-item">
         <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden mx-2 sm:p-6 flex-2 max-h-72">
           <a href="https://brianlovin.com" target="_blank">
             <img src="./assets/brianlovincom.png" style="object-fit: cover" />
           </a>
         </div>
-        <div><span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span></div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://brianlovin.com">https://brianlovin.com</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span>
+        </div>
       </div>
-      <div class="m-2">
+      <div class="m-2 flex-row-item">
         <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
           <a href="https://aschmelyun.com/" target="_blank">
             <img src="./assets/aschemlyuncom.png" style="object-fit: cover" />
           </a>
         </div>
-        <div><span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span></div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://aschmelyun.com/">https://aschmelyun.com/</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span>
+        </div>
       </div>
-      <div class="m-2">
+      <div class="m-2 flex-row-item">
         <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
           <a href="https://vitalik.ca" target="_blank">
             <img src="./assets/vitalikca.png" style="object-fit: cover" />
           </a>
         </div>
-        <div><span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span></div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://vitalik.ca">https://vitalik.ca</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 03/26/2022</span>
+        </div>
+      </div>
+      <div class="m-2 flex-row-item">
+        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
+          <a href="https://swyx.io" target="_blank">
+            <img src="./assets/swyxio.png" style="object-fit: cover" />
+          </a>
+        </div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://swyx.io">https://swyx.io</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 04/05/2022</span>
+        </div>
+      </div>
+      <div class="m-2 flex-row-item">
+        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
+          <a href="https://www.joshwcomeau.com/" target="_blank">
+            <img src="./assets/joshwcomeaucom.png" style="object-fit: cover" />
+          </a>
+        </div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://www.joshwcomeau.com/">https://www.joshwcomeau.com/</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 04/05/2022</span>
+        </div>
+      </div>
+      <div class="m-2 flex-row-item">
+        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
+          <a href="https://jvns.ca/" target="_blank">
+            <img src="./assets/jvnsca.png" style="object-fit: cover" />
+          </a>
+        </div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://jvns.ca/">https://jvns.ca/</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 04/05/2022</span>
+        </div>
+      </div>
+      <div class="m-2 flex-row-item">
+        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
+          <a href="https://calebporzio.com/" target="_blank">
+            <img class="m-auto" src="./assets/calebporziocom.png" style="object-fit: cover" />
+          </a>
+        </div>
+        <div>
+          <span class="float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://calebporzio.com/">https://calebporzio.com/</a></span>
+          <span class="float-right mr-2 text-xs">Last updated: 04/05/2022</span>
+        </div>
       </div>
     </div>
   </body>
