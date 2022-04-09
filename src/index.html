@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +22,7 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#ef4444">
+    <script src="./sites.js"></script>
     <style>
       .flex-row-container {
         display: flex;
@@ -38,167 +39,44 @@
     </style>
   </head>
 
+  <template>
+    <div class="siteContainer m-2 flex-row-item">
+      <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden mx-2 sm:p-6 flex-2 max-h-72">
+        <a class="previewImgLinkWrapper" target="_blank">
+          <img class="previewImg" style="object-fit: cover" />
+        </a>
+      </div>
+      <div>
+        <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs">
+          <a class="imgUrl"></a>
+        </span>
+        <span class="dateUpdatedSpan text-white float-right mr-2 text-xs"></span>
+      </div>
+    </div>
+  </template>
+
   <body class="bg-gray-500">
     <div class="flex">
       <h1 class="text-white m-4 text-2xl lg:text-4xl flex-grow">prsnl.site</h1>
       <a class="text-white hover:text-green-500 m-4 underline self-center" target="_blank" href="https://github.com/MaxRickettsUy/prsnl.site/issues">Submit your site here</a>
     </div>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="flex flex-col lg:flex-row lg:flex-grow flex-row-container">
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden mx-2 sm:p-6 flex-2 max-h-72">
-          <a href="https://brianlovin.com" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/brianlovincom_tmvg1d.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://brianlovin.com">https://brianlovin.com</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 03/26/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://aschmelyun.com/" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/aschemlyuncom_z0hjat.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://aschmelyun.com/">https://aschmelyun.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 03/26/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://vitalik.ca" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297629/prsnl.site/vitalikca_txemvy.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://vitalik.ca">https://vitalik.ca</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 03/26/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://swyx.io" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297629/prsnl.site/swyxio_di56dq.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://swyx.io">https://swyx.io</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/05/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://joshwcomeau.com/" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/joshwcomeaucom_efuelp.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://joshwcomeau.com/">https://joshwcomeau.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/05/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://jvns.ca/" target="_blank">
-            <img src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297630/prsnl.site/jvnsca_chaap4.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://jvns.ca/">https://jvns.ca/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/05/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://calebporzio.com/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/calebporziocom_cwe3fs.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://calebporzio.com/">https://calebporzio.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/05/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://lukesmith.xyz/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/lukesmithxyz_y7e2az.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://lukesmith.xyz/">https://lukesmith.xyz/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/06/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://leerob.io/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649297628/prsnl.site/leerobio_iv3pn1.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://leerob.io/">https://leerob.io/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/06/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://pketh.org/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649378602/prsnl.site/pkethorg_f4mpni.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://pketh.org/">https://pketh.org/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/07/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://boz.com/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649378737/prsnl.site/bozcom_uljm2w.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://boz.com/">https://boz.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/07/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://dustinbrett.com/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649379887/prsnl.site/dustinbrettcom_kxvklj.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://dustinbrett.com/">https://dustinbrett.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/07/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://whitep4nth3r.com/" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649465773/prsnl.site/whitep4nth3rcom_wtgdmn.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://whitep4nth3r.com/">https://whitep4nth3r.com/</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/07/2022</span>
-        </div>
-      </div>
-      <div class="m-2 flex-row-item">
-        <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6 flex-2 mx-2 max-h-72">
-          <a href="https://adamconrad.dev" target="_blank">
-            <img class="m-auto" src="https://res.cloudinary.com/shoveltoss-com/image/upload/v1649465890/prsnl.site/adamconraddev_chnqzv.png" style="object-fit: cover" />
-          </a>
-        </div>
-        <div>
-          <span class="text-white float-left hover:text-green-500 underline ml-2 text-xs"><a href="https://adamconrad.dev">https://adamconrad.dev</a></span>
-          <span class="text-white float-right mr-2 text-xs">Last updated: 04/07/2022</span>
-        </div>
-      </div>
-    </div>
+    <div id="contentContainer" class="flex flex-col lg:flex-row lg:flex-grow flex-row-container" />
   </body>
 </html>
+
+<script>
+  let temp, container;
+  temp = document.getElementsByTagName("template")[0];
+  container = document.querySelector("#contentContainer");
+  sites.forEach((s) => {
+    const clone = temp.content.cloneNode(true);
+    const site = clone.querySelector(".siteContainer");
+    site.querySelector(".previewImg").src = s.img;
+    site.querySelector(".previewImgLinkWrapper").href= s.url;
+    site.querySelector(".imgUrl").href = s.url;
+    site.querySelector(".imgUrl").innerHTML = s.url;
+    site.querySelector(".dateUpdatedSpan").innerHTML = s.dateUpdated;
+    container.append(site);
+  });
+</script>
