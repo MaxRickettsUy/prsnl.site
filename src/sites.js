@@ -19,5 +19,7 @@ const sites = [
     { url: "https://saurik.com", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649470949/prsnl.site/saurikcom_u4q3yc.png", dateUpdated: "04/08/2022"},
     { url: "https://connellmccarthy.com", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649471002/prsnl.site/connellmccarthycom_lwswa8.png", dateUpdated: "04/08/2022"},
     { url: "https://johnnyrodgers.is", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649471087/prsnl.site/johnnyrodgersis_qw44ek.png", dateUpdated: "04/08/2022"},
-    { url: "https://marcbouchenoire.com/", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649471188/prsnl.site/marcbouchenoirecom_voyzhn.png", dateUpdated: "04/08/2022"}
+    { url: "https://marcbouchenoire.com/", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649471188/prsnl.site/marcbouchenoirecom_voyzhn.png", dateUpdated: "04/08/2022"},
+    { url: "http://paulgraham.com/articles.html", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649552513/prsnl.site/paulgrahamcom_lod96n.png", dateUpdated: "04/09/2022"},
+    { url: "https://moxie.org", img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649552507/prsnl.site/moxieorg_wha6pu.png", dateUpdated: "04/09/2022"}
 ];
