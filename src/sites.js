@@ -32,7 +32,7 @@ const sites = [
     {
         url: "https://calebporzio",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649986403/prsnl.site/calebporziocom_cwe3fs_cws4hy.webp",
-        dateUpdate:"04/05/2022"
+        dateUpdated:"04/05/2022"
     },
     {
         url: "https://lukesmith.xyz",
@@ -113,5 +113,15 @@ const sites = [
         url: "https://moxie.org",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649986404/prsnl.site/moxieorg_wha6pu_q3ezza.webp",
         dateUpdated: "04/09/2022"
+    },
+    {
+        url: "https://lipanski.com/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649989017/prsnl.site/lipanskicom_eztxra.webp",
+        dateUpdated: "04/14/2022"
+    },
+    {
+        url: "https://loganmarchione.com/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649989017/prsnl.site/loganmarchionecom_na1zar.webp",
+        dateUpdated: "04/14/2022"
     }
 ];
