@@ -123,5 +123,10 @@ const sites = [
         url: "https://loganmarchione.com/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649989017/prsnl.site/loganmarchionecom_na1zar.webp",
         dateUpdated: "04/14/2022"
+    },
+    {
+        url: "https://paulstamatiou.com",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650076578/prsnl.site/paulstamatiou.com-1366x1289_tcgfdw.webp",
+        dateUpdated: "04/15/2022"
     }
 ];
