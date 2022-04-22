@@ -128,5 +128,15 @@ const sites = [
         url: "https://paulstamatiou.com",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650076578/prsnl.site/paulstamatiou.com-1366x1289_tcgfdw.webp",
         dateUpdated: "04/15/2022"
+    },
+    {
+        url: "https://matthewshields.co.uk/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650591009/prsnl.site/matthewshields.co.uk_xh9tua.webp",
+        dateUpdate: "04/21/2022"
+    },
+    {
+        url: "https://nunn.ink",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650591222/prsnl.site/nunnink_l0eauk.webp",
+        dateUpdate: "04/21/2022"
     }
 ];
