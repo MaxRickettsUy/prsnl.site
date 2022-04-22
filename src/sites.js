@@ -132,11 +132,16 @@ const sites = [
     {
         url: "https://matthewshields.co.uk/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650591009/prsnl.site/matthewshields.co.uk_xh9tua.webp",
-        dateUpdate: "04/21/2022"
+        dateUpdated: "04/21/2022"
     },
     {
         url: "https://nunn.ink",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650591222/prsnl.site/nunnink_l0eauk.webp",
-        dateUpdate: "04/21/2022"
+        dateUpdated: "04/21/2022"
+    },
+    {
+        url: "https://wittenburg.co.uk/Default.aspx",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650591892/prsnl.site/wittenburgcouk_f4vtjx.webp",
+        dateUpdated: "04/21/2022"
     }
 ];
