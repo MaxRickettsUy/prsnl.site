@@ -6,6 +6,7 @@
 
     <title>prsnl.site - Collection of Personal Sites</title>
 
+    <link href="./styles.css" rel="stylesheet">
     <link href="./output.css" rel="stylesheet">
 
     <meta name="description" content="prsnl.site">
@@ -22,21 +23,6 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000000">
-    <script src="./sites.js"></script>
-    <style>
-      .flex-row-container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-      }
-      .flex-row-container > .flex-row-item {
-        flex: 1 1 30%; /*grow | shrink | basis */
-      }
-      .flex-row-item {
-        padding: 8px;
-      }
-    </style>
   </head>
 
   <template>
@@ -79,18 +65,4 @@
   </body>
 </html>
 
-<script>
-  let temp, container;
-  temp = document.getElementsByTagName("template")[0];
-  container = document.querySelector("#contentContainer");
-  sites.forEach((s) => {
-    const clone = temp.content.cloneNode(true);
-    const site = clone.querySelector(".siteContainer");
-    site.querySelector(".previewImg").src = s.img;
-    site.querySelector(".previewImgLinkWrapper").href= s.url;
-    site.querySelector(".imgUrl").href = s.url;
-    site.querySelector(".imgUrl").innerHTML = s.url;
-    site.querySelector(".dateUpdatedSpan").innerHTML = s.dateUpdated;
-    container.append(site);
-  });
-</script>
+<script src="./sites.js"></script>

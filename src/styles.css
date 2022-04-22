@@ -1,0 +1,12 @@
+.flex-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row-container > .flex-row-item {
+  flex: 1 1 30%; /*grow | shrink | basis */
+}
+.flex-row-item {
+  padding: 8px;
+}

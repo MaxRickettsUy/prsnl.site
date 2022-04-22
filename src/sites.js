@@ -145,3 +145,16 @@ const sites = [
         dateUpdated: "04/21/2022"
     }
 ];
+
+let temp = document.getElementsByTagName("template")[0];
+const container = document.querySelector("#contentContainer");
+sites.forEach((s) => {
+    const clone = temp.content.cloneNode(true);
+    const site = clone.querySelector(".siteContainer");
+    site.querySelector(".previewImg").src = s.img;
+    site.querySelector(".previewImgLinkWrapper").href= s.url;
+    site.querySelector(".imgUrl").href = s.url;
+    site.querySelector(".imgUrl").innerHTML = s.url;
+    site.querySelector(".dateUpdatedSpan").innerHTML = s.dateUpdated;
+    container.append(site);
+});
