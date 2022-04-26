@@ -145,8 +145,13 @@ const sites = [
         dateUpdated: "04/21/2022"
     },
     {
-        url: "https://www.markmead.dev/",
+        url: "https://markmead.dev/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650935111/prsnl.site/markmeaddev_nkfc6q.webp",
+        dateUpdated: "04/25/2022"
+    },
+    {
+        url: "https://mtlynch.io/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650936040/prsnl.site/mtlynchio_bq2uer.webp",
         dateUpdated: "04/25/2022"
     }
 ];
