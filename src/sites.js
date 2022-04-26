@@ -153,6 +153,11 @@ const sites = [
         url: "https://mtlynch.io/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650936040/prsnl.site/mtlynchio_bq2uer.webp",
         dateUpdated: "04/25/2022"
+    },
+    {
+        url: "https://stallman.org/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650937562/prsnl.site/stallmanorg_tffurr.webp",
+        dateUpdated: "04/25/2022"
     }
 ];
 
