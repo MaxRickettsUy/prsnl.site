@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss src/input.css -o src/output.css && npm run minify",
-    "minify": "minify src/sites.js > src/sites.min.js"
+    "minify": "npm run minify-css && npm run minify-js",
+    "minify-js": "minify src/sites.js > src/sites.min.js",
+    "minify-css": "minify src/output.css > src/output.min.css"
   },
   "repository": {
     "type": "git",
