@@ -158,6 +158,11 @@ const sites = [
         url: "https://stallman.org/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1650937562/prsnl.site/stallmanorg_tffurr.webp",
         dateUpdated: "04/25/2022"
+    },
+    {
+        url: "https://spaghet.me/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1651541062/prsnl.site/spaghetme_tcadyo.webp",
+        dateUpdated: "05/02/2022"
     }
 ];
 
