@@ -163,12 +163,40 @@ const sites = [
         url: "https://spaghet.me/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1651541062/prsnl.site/spaghetme_tcadyo.webp",
         dateUpdated: "05/02/2022"
+    },
+    {
+        url: "https://sarahrudder.com/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1651715319/prsnl.site/sarahruddercom_k74yfy.webp",
+        dateUpdated: "05/04/2022"
+    },
+    {
+        url: "https://mxstbr.com/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1651715319/prsnl.site/mxstbrcom_bkks3r.webp",
+        dateUpdated: "05/04/2022"
     }
 ];
 
+const shuffle = (array) => {
+    let currentIndex = array.length,  randomIndex;
+
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
+}
+
 let temp = document.getElementsByTagName("template")[0];
+
 const container = document.querySelector("#contentContainer");
-sites.forEach((s) => {
+
+shuffle(sites).forEach((s) => {
     const clone = temp.content.cloneNode(true);
     const site = clone.querySelector(".siteContainer");
     site.querySelector(".previewImg").src = s.img;
