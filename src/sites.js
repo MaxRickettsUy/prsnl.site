@@ -173,6 +173,11 @@ const sites = [
         url: "https://mxstbr.com/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1651715319/prsnl.site/mxstbrcom_bkks3r.webp",
         dateUpdated: "05/04/2022"
+    },
+    {
+        url: "https://benstokes.dev/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652923803/prsnl.site/benstokesdev_yrrhiq.webp",
+        dateUpdated: "05/18/2022"
     }
 ];
 
