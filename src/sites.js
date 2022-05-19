@@ -178,6 +178,11 @@ const sites = [
         url: "https://benstokes.dev/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652923803/prsnl.site/benstokesdev_yrrhiq.webp",
         dateUpdated: "05/18/2022"
+    },
+    {
+        url: "https://paco.me/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652925868/prsnl.site/pacome_qlssfl.webp",
+        dateUpdated: "05/18/2022"
     }
 ];
 
