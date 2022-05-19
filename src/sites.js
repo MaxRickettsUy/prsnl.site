@@ -183,6 +183,11 @@ const sites = [
         url: "https://paco.me/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652925868/prsnl.site/pacome_qlssfl.webp",
         dateUpdated: "05/18/2022"
+    },
+    {
+        url: "https://sive.rs/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652927868/prsnl.site/sivers_kpg56l.webp",
+        dateUpdated: "05/18/2022"
     }
 ];
 
