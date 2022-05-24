@@ -188,6 +188,11 @@ const sites = [
         url: "https://sive.rs/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1652927868/prsnl.site/sivers_kpg56l.webp",
         dateUpdated: "05/18/2022"
+    },
+    {
+        url: "https://kwon.nyc",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1653355051/prsnl.site/kwonnyc_nnuv8p.webp",
+        dateUpdated: "05/23/2022"
     }
 ];
 
