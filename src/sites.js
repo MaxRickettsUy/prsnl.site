@@ -193,6 +193,16 @@ const sites = [
         url: "https://kwon.nyc",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1653355051/prsnl.site/kwonnyc_nnuv8p.webp",
         dateUpdated: "05/23/2022"
+    },
+    {
+        url: "https://simonbs.dev/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1653706621/prsnl.site/simonbsdev_jx6iv9.webp",
+        dateUpdated: "05/27/2022"
+    },
+    {
+        url: "https://robinmalfait.com/",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1653706888/prsnl.site/robinmalfaitcom_skqa0q.webp",
+        dateUpdated: "05/27/2022"
     }
 ];
 
