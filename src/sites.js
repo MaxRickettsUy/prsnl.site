@@ -36,8 +36,8 @@ const sites = [
     },
     {
         url: "https://lukesmith.xyz",
-        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649986403/prsnl.site/lukesmithxyz_y7e2az_xghqjx.webp",
-        dateUpdated: "04/06/2022"
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654049369/prsnl.site/lukesmithxyz_ttmydw.webp",
+        dateUpdated: "05/31/2022"
     },
     {
         url: "https://leerob.io",
