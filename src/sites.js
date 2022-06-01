@@ -203,6 +203,11 @@ const sites = [
         url: "https://robinmalfait.com/",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1653706888/prsnl.site/robinmalfaitcom_skqa0q.webp",
         dateUpdated: "05/27/2022"
+    },
+    {
+        url: "https://maya.land",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654045071/prsnl.site/mayaland_xgwnuy.webp",
+        dateUpdated: "05/31/2022"
     }
 ];
 
