@@ -472,6 +472,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .m-4 {
   margin: 1rem;
 }
+.m-auto {
+  margin: auto;
+}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -502,6 +505,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .rounded-lg {
   border-radius: 0.5rem;
+}
+.border {
+  border-width: 1px;
 }
 .bg-white {
   --tw-bg-opacity: 1;
