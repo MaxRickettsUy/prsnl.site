@@ -213,6 +213,11 @@ const sites = [
         url: "https://memalign.github.io",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654132077/prsnl.site/memalign_pipptr.webp",
         dateUpdated: "06/01/2022"
+    },
+    {
+        url: "https://dandevri.es",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654653613/prsnl.site/dandevries_vspbug.webp",
+        dateUpdated: "06/07/2022"
     }
 ];
 
