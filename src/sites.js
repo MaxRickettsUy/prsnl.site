@@ -212,7 +212,8 @@ const sites = [
     {
         url: "https://memalign.github.io",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654132077/prsnl.site/memalign_pipptr.webp",
-        dateUpdated: "06/01/2022"
+        dateUpdated: "06/01/2022",
+        badge: "Submission"
     },
     {
         url: "https://dandevri.es",
@@ -254,5 +255,11 @@ shuffle(sites).forEach((s) => {
     site.querySelector(".imgUrl").href = s.url;
     site.querySelector(".imgUrl").innerHTML = s.url;
     site.querySelector(".dateUpdatedSpan").innerHTML = s.dateUpdated;
+    if(s.badge) {
+        console.log(s)
+        site.querySelector(".badge").classList.remove("hidden");
+        site.querySelector(".badge").classList.add("inline-flex");
+        site.querySelector(".badge").innerHTML = s.badge;
+    }
     container.append(site);
 });
