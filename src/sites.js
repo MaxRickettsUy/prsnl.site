@@ -218,6 +218,11 @@ const sites = [
         url: "https://dandevri.es",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1654653613/prsnl.site/dandevries_vspbug.webp",
         dateUpdated: "06/07/2022"
+    },
+    {
+        url: "https://chriscoyier.net",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655171261/prsnl.site/chriscoyiernet_owcsnc.webp",
+        dateUpdated: "06/13/2022"
     }
 ];
 
