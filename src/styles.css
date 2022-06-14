@@ -10,3 +10,7 @@
 .flex-row-item {
   padding: 8px;
 }
+.flex-row-item:hover {
+  border: 1px dashed white;
+  border-radius: 10px;
+}
