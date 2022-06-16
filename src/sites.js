@@ -224,6 +224,11 @@ const sites = [
         url: "https://chriscoyier.net",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655171261/prsnl.site/chriscoyiernet_owcsnc.webp",
         dateUpdated: "06/13/2022"
+    },
+    {
+        url: "https://mitchellhanberg.com",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655346512/prsnl.site/mitchellhanbergcom_junrm8.webp",
+        dateUpdated: "06/15/2022"
     }
 ];
 
