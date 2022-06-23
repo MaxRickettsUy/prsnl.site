@@ -229,6 +229,16 @@ const sites = [
         url: "https://mitchellhanberg.com",
         img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655346512/prsnl.site/mitchellhanbergcom_junrm8.webp",
         dateUpdated: "06/15/2022"
+    },
+    {
+        url: "https://bradgarropy.com",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655947312/prsnl.site/bradgarropycom_qfrqa9.webp",
+        dateUpdated: "06/22/2022"
+    },
+    {
+        url: "https://littlegreenviper.com",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1655947493/prsnl.site/littlegreenvipercom_clmby6.webp",
+        dateUpdated: "06/22/2022"
     }
 ];
 
