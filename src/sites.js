@@ -61,8 +61,8 @@ const sites = [
     },
     {
         url: "https://whitep4nth3r.com",
-        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1649986404/prsnl.site/whitep4nth3rcom_wtgdmn_ih7pfv.webp",
-        dateUpdated: "04/08/2022"
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1665281268/prsnl.site/whitep4nth3rcom_rzmzb0.webp",
+        dateUpdated: "10/08/2022"
     },
     {
         url: "https://adamconrad.dev",
@@ -242,7 +242,7 @@ const sites = [
     },
     {
         url: "https://robbowen.digital",
-        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1658885292/prsnl.site/robbowendigital_etlxhu.webp",
+        img: "https://res.cloudinary.com/shoveltoss-com/image/upload/v1658885292/prsnl.site/robbowendigital_etlxhu.webpw",
         dateUpdated: "07/26/2022"
     }
 ];
